@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div style="text-align: center">
+        <a href="./index.html" target="_blank">
+          <img
+            src="./Screenshot 2024-08-26 215555.png"
+            width="30%"
+            alt="sad mood"
+        /></a>
+      </div>
+      <h1 style="font-size: 25px">sad mood</h1>
+      <hr />
+      <div>
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Games</li>
+          <li>Musics</li>
+          <li>Movies</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Sub information</h2>
+        <table border="1" cellpadding="10px" cellspacing="0">
+          <tr>
+            <th>Course numbers</th>
+            <th>Course title</th>
+            <th>Semester taken</th>
+          </tr>
+          <tr>
+            <th colspan="4">For credit</th>
+          </tr>
+          <tr>
+            <td>6.123</td>
+            <td>Operating system</td>
+            <td>Spring 19</td>
+          </tr>
+          <tr>
+            <td>5.4890</td>
+            <td>Artificial Intelligence</td>
+            <td>Fall 19</td>
+          </tr>
+          <tr>
+            <td>7.0879</td>
+            <td>Data mining</td>
+            <td>fall 19</td>
+          </tr>
+          <tr>
+            <th colspan="4">For listener</th>
+          </tr>
+          <tr>
+            <td>8.0383</td>
+            <td>Database</td>
+            <td>fall 19</td>
+          </tr>
+          <tr>
+            <td>6.0393</td>
+            <td>java programming</td>
+            <td>Spring 19</td>
+          </tr>
+        </table>
+      </div>
+      <hr />
+      <div>
+        <h2>Submit information</h2>
+        <form>
+          <table border="1">
+            <tr>
+              <td><label for="name">Username:</label></td>
+              <td colspan="3"><input type="text" name="username" id="name" /></td>
+            </tr>
+            <tr>
+              <td>Gender:</td>
+              <td><label for="sex">male</label>
+              <input type="radio" name="male" id="sex" value="1" />
+              <label for="fsex">female</label>
+              <input type="radio" name="male" id="fsex" value="2" /></td>
+            </tr>
+            <tr>
+              <td rowspan="4">Hobbies</td>
+              <tr><td><label for="cnt 1">Musics</label><input type="checkbox" name="hobbies" value="1" id="cnt 1"></td></tr>
+              <tr><td><label for="cnt 2">Games</label><input type="checkbox" name="hobbies" value="2" id="cnt 2"></td></tr>
+              <tr><td><label for="cnt 3">Games</label><input type="checkbox" name="hobbies" value="3" id="cnt 3"></td></tr>
+            </tr>
+            <tr><Td>Date of Birth</Td>
+              <td colspan="4"><input type="date"></td>
+            </tr>
+            <tr>
+            <td>Country</td>
+            <td><select name="country" id=""><option value="1">Vietnam</option>
+            <option value="2">Thailand</option>
+            <option value="3">Singapore</option>
+            <option value="4">Cambodia</option>
+            <option value="5">china</option></select></td>
+          </tr>
+          <tr><td>Picture</td>
+          <td><input type="file"></td></tr>
+          <tr>
+            <td>Email</td>
+            <td><input type="email" name="email"></td>
+          </tr>
+          <tr><td>Password</td>
+            <td><input type="password" name="pass"></td>
+          </tr>
+          <tr><td></td>
+            <td><input type="submit" value="submit">
+            <input type="reset" value="reset"></td>
+          </tr>
+          </table>
+        </form>
+      </div>
+
+    </div>
+  </body>
+</html>

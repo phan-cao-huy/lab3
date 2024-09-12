@@ -1,0 +1,21 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgba(92, 51, 3, 0.514);
+}
+body {
+  background-color: white;
+}
+h2 {
+  color: rgb(83, 83, 163);
+}
+h1 {
+  color: rgb(83, 83, 163);
+}
+u {
+  color: rgb(204, 56, 56);
+}
+.certi {
+  display: flex;
+}
